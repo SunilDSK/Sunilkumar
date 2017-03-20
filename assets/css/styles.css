@@ -1,0 +1,10 @@
+body{
+    height: 200vh;
+}
+
+.bgground{
+    background-color: aqua;
+}
+.section{
+    padding-top: 50px;
+}   
