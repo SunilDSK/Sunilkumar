@@ -18,22 +18,22 @@
 </head>
 
 <body>
-    <header class="navbar-fixed">
+    <header id="header" class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a class="waves-effect waves-light" href="#intro">Intro</a></li>
+                    <li><a class="waves-effect waves-light" href="#header">Intro</a></li>
                     <li><a class="waves-effect waves-light" href="#about">About</a></li>
                     <li><a class="waves-effect waves-light" href="#skills">Skills</a></li>
-                    <li><a class="waves-effect waves-light" href="#work">Work</a></li>
+                    <li><a class="waves-effect waves-light" href="#work">My works</a></li>
                     <li><a class="waves-effect waves-light" href="#blog">Blog</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
-                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#header">Intro</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#work">Work</a></li>
+                    <li><a href="#work">My works</a></li>
                     <li><a href="#blog">Blog</a></li>
                 </ul>
             </div>
@@ -42,7 +42,7 @@
     <!--  Hero image  -->
     <div id="intro" class="parallax-container valign-wrapper">
         <div class="parallax"><img src="/assets/images/parallax1.jpg" height="auto"></div>
-        <div class="container ">
+        <div class="container">
             <div class="row">
                 <div class="col s12 valign">
                     <h3>Hello, I am Sunilkumar</h3>
@@ -183,16 +183,21 @@
                     <h5>Tools</h5>
                     <div class="container">
                         <div class="row">
-                            <div class="col l3 m3 s6 ">
-                                <i class="devicon-github-plain-wordmark colored" style="font-size:5rem;"></i>
+                            <div class="col l3 m3 s6 tooltipped"
+                                   data-position="bottom" data-delay="50" data-tooltip="GitHub">
+                                <i class="devicon-github-plain-wordmark colored"
+                                   style="font-size:5rem;"></i>
                             </div>
-                            <div class="col l3 m3 s6 ">
+                            <div class="col l3 m3 s6 tooltipped"
+                                 data-position="bottom" data-delay="50" data-tooltip="Android Studio">
                                 <img src="assets/images/Android_Studio_icon.svg" height="70px">
                             </div>
-                            <div class="col l3 m3 s6 ">
+                            <div class="col l3 m3 s6 tooltipped"
+                                   data-position="bottom" data-delay="50" data-tooltip="Photoshop">
                                 <i class="devicon-photoshop-line colored" style="font-size:5rem"></i>
                             </div>
-                            <div class="col l3 m3 s6 ">
+                            <div class="col l3 m3 s6 tooltipped"
+                                   data-position="bottom" data-delay="50" data-tooltip="illustrator">
                                 <i class="devicon-illustrator-line colored" style="font-size:5rem"></i>
                             </div>
                         </div>
@@ -204,19 +209,44 @@
                     <div class="container">
                         <div class="row">
                             <div class="col l2 m2 s3 center-align">
-                                <i class="fa fa-gamepad" aria-hidden="true" style="font-size:4rem;"></i>
+                                <i class="fa fa-gamepad tooltipped"
+                                   aria-hidden="true"
+                                   style="font-size:4rem;"
+                                   data-position="bottom"
+                                   data-delay="50"
+                                   data-tooltip="Gaming"></i>
                             </div>
                             <div class="col l2 m2 s3 center-align">
-                                <i class="fa fa-camera-retro" aria-hidden="true" style="font-size:4rem;"></i>
+                                <i class="fa fa-camera-retro tooltipped"
+                                   aria-hidden="true"
+                                   style="font-size:4rem;"
+                                   data-position="bottom"
+                                   data-delay="50"
+                                   data-tooltip="Photography"></i>
                             </div>
                             <div class="col l2 m2 s3 center-align">
-                                <i class="fa fa-music" aria-hidden="true" style="font-size:4rem;"></i>
+                                <i class="fa fa-music tooltipped"
+                                   aria-hidden="true"
+                                   style="font-size:4rem;"
+                                   data-position="bottom"
+                                   data-delay="50"
+                                   data-tooltip="Music"></i>
                             </div>
                             <div class="col l2 m2 s3 center-align">
-                                <i class="fa fa-book" aria-hidden="true" style="font-size:4rem;"></i>
+                                <i class="fa fa-book tooltipped"
+                                   aria-hidden="true"
+                                   style="font-size:4rem;"
+                                   data-position="bottom"
+                                   data-delay="50"
+                                   data-tooltip="Books"></i>
                             </div>
                             <div class="col l2 m2 s12 center-align">
-                                <i class="fa fa-bicycle" aria-hidden="true" style="font-size:4rem;"></i>
+                                <i class="fa fa-bicycle tooltipped"
+                                   aria-hidden="true"
+                                   style="font-size:4rem;"
+                                   data-position="bottom"
+                                   data-delay="50"
+                                   data-tooltip="Cycling"></i>
                             </div>
                         </div>
                     </div>
@@ -224,6 +254,8 @@
             </div>
         </div>
     </div>
+
+    <!-- My Works section  -->
 </body>
 </html>
 <!-- Compiled and minified JavaScript -->
