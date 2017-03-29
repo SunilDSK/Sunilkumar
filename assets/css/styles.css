@@ -14,3 +14,9 @@ body{
 .gap{
     margin-bottom: 20px;
 }
+#intro{
+    width: 100%;
+}
+.navbar-fixed{
+    z-index: 1000;
+}
