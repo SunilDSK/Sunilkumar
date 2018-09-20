@@ -20,3 +20,8 @@ body{
 .navbar-fixed{
     z-index: 1000;
 }
+
+img.activator{
+    widows: 100%;
+    height: 300px;
+}
