@@ -9,9 +9,11 @@ $( document ).ready(function(){
      * and increment it to new age for ever september month.
      */
     function setNewAge() {
-      var age = parseInt($('#age').text());
-      if (date.getMonth()>7){
-        $('#age').html(++age);
+      var age = getFullYear() - 1995;
+      if ((date.getMonth()<8)&&(date.getDate()<8)){
+        $('#age').html(--age);
+      } else {
+          $('#age').html(age);
       }
     }
     setNewAge();
