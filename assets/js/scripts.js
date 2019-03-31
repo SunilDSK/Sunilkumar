@@ -10,10 +10,10 @@ $( document ).ready(function(){
      */
     function setNewAge() {
       var age = date.getFullYear() - 1995;
-      if ((date.getMonth()<8)&&(date.getDate()<8)){
-        $('#age').html(--age);
+      if ((date.getMonth() >= 8) && (date.getDate() >= 8)){
+        $('#age').html(age);
       } else {
-          $('#age').html(age);
+        $('#age').html(--age);
       }
     }
     setNewAge();
